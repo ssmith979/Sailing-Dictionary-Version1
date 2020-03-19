@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 3px solid rgb(77, 180, 167);
+    margin-bottom: 5px;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px; 
+    
+  }
+  
+  .classy {
+    background-color: rgb(75, 126, 184);
+    color: rgb(14, 5, 5);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: black;
+    border-style: solid;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  
+  .active, .classy:hover{
+    background-color: rgb(136, 224, 205);
+  }
+ .classified {
+   border-bottom-style: dotted;
+ }
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(136, 224, 205);
+    max-height: 0;
+    overflow: hidden;
+    text-align: left;
+    border-style: hidden;
+    transition: "max-height" 0.2s ease-out;
+    
+  };
